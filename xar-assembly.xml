@@ -41,10 +41,10 @@
     <!-- include the XQuery Library modules written in XQuery from this project -->
     <xquerySets>
         <xquerySet>
-            <namespace>https://exist-db.org/exist-db/ns/app/mysql</namespace>
+            <namespace>https://exist-db.org/exist-db/ns/app/snowflake</namespace>
             <directory>${basedir}/src/main/xquery</directory>
             <includes>
-                <include>mysql-module.xqm</include>
+                <include>snowflake-module.xqm</include>
             </includes>
             <outputDirectory>content</outputDirectory>
         </xquerySet>
@@ -57,11 +57,11 @@
             <artifactId>${project.artifactId}</artifactId>
             <version>${project.version}</version>
         </dependencySet>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- https://mvnrepository.com/artifact/net.snowflake/snowflake-jdbc -->
         <dependencySet>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
+            <groupId>net.snowflake</groupId>
+            <artifactId>snowflake-jdbc</artifactId>
+            <version>3.12.13</version>
         </dependencySet>
     </dependencySets>
 
