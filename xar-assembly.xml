@@ -19,9 +19,6 @@
 
     <dependency processor="http://exist-db.org" semver-min="${exist.version}" />
 
-    <!-- Collection inside /db/apps where xar-resources will be copied to -->
-    <target>${package-abbrev}</target>
-
     <prepare>pre-install.xq</prepare>
 
     <!-- includes everything in src/main/xar-resources, README.md, and LICENSE -->
@@ -61,7 +58,7 @@
         <dependencySet>
             <groupId>net.snowflake</groupId>
             <artifactId>snowflake-jdbc</artifactId>
-            <version>3.12.13</version>
+            <version>${snowflake.version}</version>
         </dependencySet>
     </dependencySets>
 

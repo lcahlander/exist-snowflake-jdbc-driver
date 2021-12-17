@@ -49,6 +49,7 @@
         <project.build.target>1.8</project.build.target>
 
         <exist.version>5.2.0</exist.version>
+        <snowflake.version>3.13.12</snowflake.version>
 
         <!-- used in the EXPath Package Descriptor -->
         <package-name>https://exist-db.org/exist-db/jdbc/snowflake</package-name>
@@ -64,7 +65,7 @@
         <dependency>
             <groupId>net.snowflake</groupId>
             <artifactId>snowflake-jdbc</artifactId>
-            <version>3.13.12</version>
+            <version>${snowflake.version}</version>
         </dependency>
 
         <!-- test dependencies -->
