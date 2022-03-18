@@ -13,7 +13,7 @@
 
     <groupId>org.exist-db</groupId>
     <artifactId>exist-snowflake-jdbc-driver</artifactId>
-    <version>3.13.15</version>
+    <version>3.13.16</version>
 
     <name>Snowflake JDBC Driver</name>
     <description>Snowflake JDBC Driver for eXist-db</description>
