@@ -18,10 +18,10 @@
     <name>Snowflake JDBC Driver</name>
     <description>Snowflake JDBC Driver for eXist-db</description>
     <url>https://exist-db.org/exist-db/jdbc/snowflake</url>
-
+    
     <organization>
         <name>eXist-db</name>
-        <url>http://exist-db.org</url>
+        <url>https://www.github.com/eXist-db/exist-snowflake-jdbc-driver</url>
     </organization>
 
     <licenses>
