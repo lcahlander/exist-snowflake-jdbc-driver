@@ -19,8 +19,6 @@
 
     <dependency processor="http://exist-db.org" semver-min="${exist.version}" />
 
-    <prepare>pre-install.xq</prepare>
-
     <!-- includes everything in src/main/xar-resources, README.md, and LICENSE -->
     <fileSets>
         <fileSet>
